@@ -162,7 +162,7 @@ if (isDarwin) {
     // need to store the output files in separate directories
     outDir = path.join(outDir, arch)
 
-    var muonInstaller = require('muon-winstaller')
+    var muonInstaller = require('@petemill/muon-winstaller')
     var resultPromise = muonInstaller.createWindowsInstaller({
       appDirectory: buildDir,
       outputDirectory: outDir,

@@ -132,6 +132,7 @@
     "webtorrent-remote": ">=2.1.0"
   },
   "devDependencies": {
+    "@petemill/muon-winstaller": "^3.0.0",
     "asar": "~0.13.0",
     "babel": "^6.1.18",
     "babel-core": "^6.3.15",
